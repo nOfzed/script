@@ -160,7 +160,7 @@ function sex()
     -- Uilib Shits
 
     local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/Forever4D/Lib/main/DiscordLib2.lua")()
-    local win = DiscordLib:Window("[👻UPD 2] Anime Adventures".." - "..tostring(identifyexecutor())))
+    local win = DiscordLib:Window("[👻UPD 2] Anime Adventures v2.0.0".." - "..tostring(identifyexecutor()))
     local serv = win:Server("Anime Adventures", "http://www.roblox.com/asset/?id=6031075938")
             
     if game.PlaceId == 8304191830 then
@@ -356,7 +356,7 @@ function sex()
 
         
 
-        local worlddrop = autofarmtab:Dropdown("Select World", {"Plannet Namak", "Shiganshinu District", "Snowy Town","Hidden Sand Village", "Marine's Ford","Ghoul City"}, getgenv().world, function(world)
+        local worlddrop = autofarmtab:Dropdown("Select World", {"Plannet Namak", "Shiganshinu District", "Snowy Town","Hidden Sand Village", "Marine's Ford"}, getgenv().world, function(world)
             getgenv().world = world
             updatejson()
             if world == "Plannet Namak" then
@@ -399,8 +399,7 @@ function sex()
                 "marineford_level_4","marineford_level_5","marineford_level_6",}
                 for i, v in ipairs(levels) do
                     getgenv().leveldrop:Add(v)
-                end
-                elseif world == "Ghoul City" then
+            elseif world == "Ghoul City" then
                 getgenv().leveldrop:Clear()
                 table.clear(levels)
                 getgenv().levels = {"tokyoghoul_infinite", "tokyoghoul_level_1", "tokyoghoul_level_2", "tokyoghoul_level_3", "tokyoghoul_level_4",
@@ -663,8 +662,8 @@ function sex()
     end
 
     local credits = serv:Channel("Credits")
-    credits:Label("Who")
-    credits:Label("Who")
+    credits:Label("Forever4D#0001")
+    credits:Label("Arpon AG#6612")
     credits:Label(" ")
 
 end
