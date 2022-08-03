@@ -399,6 +399,7 @@ function sex()
                 "marineford_level_4","marineford_level_5","marineford_level_6",}
                 for i, v in ipairs(levels) do
                     getgenv().leveldrop:Add(v)
+		end
             elseif world == "Ghoul City" then
                 getgenv().leveldrop:Clear()
                 table.clear(levels)
