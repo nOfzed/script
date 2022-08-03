@@ -663,8 +663,8 @@ function sex()
     end
 
     local credits = serv:Channel("Credits")
-    credits:Label("Forever4D#0001")
-    credits:Label("Arpon AG#6612")
+    credits:Label("Who")
+    credits:Label("Who")
     credits:Label(" ")
 
 end
