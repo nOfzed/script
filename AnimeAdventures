@@ -1,8 +1,5 @@
--- v1.4.2 --
--- Hides users name automatically
--- Fixed Auto upgrade
--- Auto Ability might be broken (will fix later)
-
+-- v2.0.0 --
+-- UPD Ghoul City
 
 ---// Loading Section \\---
 task.wait(2)
@@ -166,7 +163,7 @@ function sex()
     -- Uilib Shits
 
     local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/Forever4D/Lib/main/DiscordLib2.lua")()
-    local win = DiscordLib:Window("[👻UPD 2] Anime Adventures 2.0.0 ".." - "..tostring(identifyexecutor()))
+    local win = DiscordLib:Window("[👻UPD 2] Anime Adventures 2.0.0".." - "..tostring(identifyexecutor()))
     local serv = win:Server("Anime Adventures", "http://www.roblox.com/asset/?id=6031075938")
             
     if game.PlaceId == 8304191830 then
@@ -362,7 +359,7 @@ function sex()
 
         
 
-        local worlddrop = autofarmtab:Dropdown("Select World", {"Plannet Namak", "Shiganshinu District", "Snowy Town","Hidden Sand Village", "Marine's Ford"}, getgenv().world, function(world)
+        local worlddrop = autofarmtab:Dropdown("Select World", {"Plannet Namak", "Shiganshinu District", "Snowy Town","Hidden Sand Village", "Marine's Ford", "Ghoul City"}, getgenv().world, function(world)
             getgenv().world = world
             updatejson()
             if world == "Plannet Namak" then
@@ -669,8 +666,7 @@ function sex()
     end
 
     local credits = serv:Channel("Credits")
-    credits:Label("Forever4D#0001")
-    credits:Label("Arpon AG#6612")
+    credits:Label("`A~.#5818")
     credits:Label(" ")
 
 end
