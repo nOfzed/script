@@ -356,7 +356,7 @@ function sex()
 
         
 
-        local worlddrop = autofarmtab:Dropdown("Select World", {"Plannet Namak", "Shiganshinu District", "Snowy Town","Hidden Sand Village", "Marine's Ford"}, getgenv().world, function(world)
+        local worlddrop = autofarmtab:Dropdown("Select World", {"Plannet Namak", "Shiganshinu District", "Snowy Town","Hidden Sand Village", "Marine's Ford", "Ghoul City"}, getgenv().world, function(world)
             getgenv().world = world
             updatejson()
             if world == "Plannet Namak" then
@@ -662,8 +662,8 @@ function sex()
     end
 
     local credits = serv:Channel("Credits")
-    credits:Label("Forever4D#0001")
-    credits:Label("Arpon AG#6612")
+    credits:Label("Made by me")
+    credits:Label(" ")
     credits:Label(" ")
 
 end
